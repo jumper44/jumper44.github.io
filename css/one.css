@@ -97,8 +97,50 @@ ul#nav a:hover{
     height: 400px;
     width: 100%;
     margin: 0 auto;
-    background: #2D82E4;
+    background-color: #2D82E4;
 }
+.imgCenter{
+    position: relative;
+    top: 0;
+    height: 100%;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    background-color: #fdfdfd;
+}
+
+
+
+
+.imgLeft{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 620px;
+    display: inline-block;
+    margin: 0;
+    background-color: #2D82E4;
+    background-image: url(../images/left.png);
+    background-repeat: no-repeat;
+}
+.imgRight{
+    position: relative;
+    float: right;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 620px;
+    display: inline-block;
+    margin: 0;
+    background-color: #2D82E4;
+    background-image: url(../images/right.png);
+    background-repeat: no-repeat;
+
+}
+
+
+
 .content{
     position: relative;
     top: 55px;
@@ -111,7 +153,7 @@ ul#nav a:hover{
 
 .center{
     position: relative;
-    top: 0;
+    top: -160px;
     left: 0;
     height: 600px;
     width: 80%;
