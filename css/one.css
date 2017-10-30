@@ -90,6 +90,8 @@ ul#nav a:hover{
 
 
 
+
+
 .slider {
     position: relative;
     top: 55px;
@@ -104,6 +106,7 @@ ul#nav a:hover{
     top: 0;
     height: 100%;
     width: 80%;
+    min-width: 1240px;
     display: block;
     margin: 0 auto;
     background-color: #fdfdfd;
@@ -141,6 +144,10 @@ ul#nav a:hover{
 
 
 
+
+
+
+
 .content{
     position: relative;
     top: 55px;
@@ -155,7 +162,7 @@ ul#nav a:hover{
     position: relative;
     top: -160px;
     left: 0;
-    height: 600px;
+    height: 650px;
     width: 80%;
     background: #fff;
     margin: 0 auto 40px auto;
