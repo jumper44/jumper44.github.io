@@ -201,7 +201,13 @@ ul#nav a:hover{
 
 
 
-@media screen and (max-width:1240px){
+@media screen and (max-width:1550px){
+#none{
+display: none;
+}
+    #nav li {
+        float: left;
+        width: 14.28%;
 }
 
 
